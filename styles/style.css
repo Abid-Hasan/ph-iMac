@@ -1,0 +1,95 @@
+body {
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+p {
+    color: dimgray;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.option-container {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#display-image {
+    width: 75%;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+.option {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.option-selected {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+#cost-container {
+    width: 40%;
+}
+
+.cost-row {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 5px;
+}
+
+.cost-row h4 {
+    margin-top: 10px;
+}
+
+.border-bottom-light {
+    border-bottom: 1px solid lightgray;
+}
+
+.border-bottom-dark {
+    border-bottom: 2px solid gray;
+}
+
+#promo-row {
+    margin: 20px 0
+}
+
+#promo-input {
+    padding: 10px 10px;
+}
+
+#apply-promo-button {
+    background-color: crimson;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+hr {
+    border: 1px solid gray;
+}
