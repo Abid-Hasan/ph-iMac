@@ -3,11 +3,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-main {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-
 h2 {
     margin-top: 10px;
 }
@@ -92,4 +87,11 @@ footer h2 {
 
 hr {
     border: 1px solid gray;
+}
+
+@media(min-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
 }
